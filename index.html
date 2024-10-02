@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Peach App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <header class="header">
+                <a href="#">experiments</a><span class="slash">/</span><a href="#">#GPT-4</a><span class="slash">/</span><span>peachapp</span>
+            </header>
+            
+            <h1>Hi there! This is Peach App, a new tool for your great pitches. Type in all you want and let AI make the unique slides with generative texts.</h1>
+            
+            <div class="form-content">
+                <form>
+                    <div class="form-group">
+                        <label for="project-name">Project Name:</label>
+                        <input type="text" id="project-name" placeholder="Type the Project name, Peach will use it for the title slide and for the name of the uploaded file.">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="details">Details:</label>
+                        <textarea id="details" rows="5" placeholder="Describe a topic, attach references, specify a narrative style, give a command to do research, or use materials of particular author. The more details you give, the more accurate presentation you get."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="purpose">Purpose:</label>
+                        <input type="text" id="purpose" placeholder="Type the goal of your presentations, for what and where it will be used, e.g., pitching a startup to investors.">
+                    </div>
+                </form>
+            </div>
+            
+            <div class="language">
+                Presentation Language: English
+            </div>
+            
+            <footer>
+                <p>Made by Experiments. Part of <a href="https://self.team/" target="_blank">Self_.</a>
+                Designed by <a href="https://m-y-s.co/" target="_blank">*M-Y-S*.</a> ©2023</p>
+                <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=388892&theme=dark" alt="Peach App - A new tool for your great pitches | Product Hunt" width="250" height="54">
+            </footer>
+        </div>
+        
+        <div class="side-icons">
+            <div class="icon">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="8" r="4"/>
+                    <path d="M20 21a8 8 0 0 0-16 0"/>
+                </svg>
+            </div>
+            <div class="icon">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10"/>
+                    <line x1="2" y1="12" x2="22" y2="12"/>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                </svg>
+            </div>
+            <div class="icon">
+                <svg viewBox="0 0 24 24">
+                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                </svg>
+            </div>
+            <div class="icon">
+                <svg viewBox="0 0 24 24">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
